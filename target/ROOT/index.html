@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>the Great White Hype</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <script src="http://code.jquery.com/jquery-1.4.min.js" type="text/javascript"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+
+
+<body>
+ <div class="title">the Race Banner</div>
+ <div class="linkbar">   	  
+	  	<div class='menucontainer'>
+	  		<div id='cssmenu'>
+				<ul>
+				   <li><a id="home" href='#'><span>Home</span></a></li>
+				   <li class='has-sub'><a href='#'><span>About</span></a>
+				      <ul>
+				         <li class='has-sub'><a id="racedetails" href='#'><span>Race Details</span></a></li>
+				         <li class='has-sub'><a id="schedule" href='#'><span>Event Schedule</span></a></li>
+				         <li class='has-sub'><a id="tips" href='#'><span>Fundraising Tips</span></a></li>
+				      </ul>
+				   </li>
+				   <li><a id="register" href='#'><span>Register</span></a></li>
+				   <li id="sponsors" class='last'><a href='#'><span>Race Sponsors</span></a></li>
+				</ul>
+			</div>
+		</div>	
+</div>
+
+<div class="contentcontainer">
+	<div id="content">
+				
+		<p>Introducing the 1st annual Flight of the Cods,  charity team-relay race. Join kiters across the New England as they blast along the 26 mile course in teams of 5. Learn more about the course (link).
+		
+		<p>The race is limited to 30 teams, so register(link) today!
+		
+		<p>Proceeds benefit Kiteboarding 4 Cancer, which funds survivorship camps for cancer patients aged 19-39. Learn more about their great work here (link)
+		
+		<p>A guaranteed day of good times and a worthy cause.
+		
+		<p>Kb4c video
+		<p>Tyler promo video
+	
+	</div>
+</div>
+
+
+	<script type="text/javascript">
+	    $(document).ready(function(){
+	       $("#home").click(function(){
+	        $('#content').load('home.html');
+	         //alert("Thanks for visiting!");
+	       }); 
+	
+	       $("#racedetails").click(function(){
+	        $('#content').load('racedetails.html');
+	         //alert("Thanks for visiting!");
+	       });
+	       
+	       $("#schedule").click(function(){
+		        $('#content').load('schedule.html');
+		         //alert("Thanks for visiting!");
+		       });
+	       
+	       $("#tips").click(function(){
+		        $('#content').load('tips.html');
+		         //alert("Thanks for visiting!");
+		       });
+	       
+	       $("#register").click(function(){
+		        $('#content').load('register.html');
+		         //alert("Thanks for visiting!");
+		       });
+	       
+	       
+	       $("#sponsors").click(function(){
+		        $('#content').load('sponsors.html');
+		         //alert("Thanks for visiting!");
+		       });
+	     });
+	</script>
+
+
+
+
+
+
+
+    <!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
